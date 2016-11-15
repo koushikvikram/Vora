@@ -74,7 +74,7 @@ sudo -iu cluster_admin
 mkdir ~/.ssh
 chmod 700 ~/.ssh
 
-echo "INSERT THE KEY HERE" > ~/.ssh/authorized_keys
+echo "INSERT THE PUBLIC KEY HERE" > ~/.ssh/authorized_keys
 -- past in line 2 from cluster.keys
 -- like ;
 echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDE/dntMmsKAwtWMNRxnhAskY3Gnra5K1ecDXwpeZLMrWahfRB60lP88gWG0LsgsvkSPSzK10ucOkRqsh5QoyrajO2NvvmNz/lofC+jUCR/eGqWtoHcf2FtnvC+A3niw6VhAgycFOYFdU45amKfj3mt5kAVZtOM+wfGK+3POj7o8????????????????????????????????????64KtmOqPgtkHXaQITzgrCVBR4mLtruiolPNbkaDWhYoiXGvRSfmJQWc0D6RrV6alC7KcbiHtWfpsCykgZRmDOTFro9WPuFJTXzFmlHFYUQIZGS4/KDXr7AcKlHYBfMVSZ cluster_admin@ip-10-0-0-??" > ~/.ssh/authorized_keys
